@@ -13,6 +13,17 @@ public class Q04_ForLoop {
          39
          26
          13       */
+        int toplam=0;
+
+        for (int i = 100; i >=0 ; i--) {
+            if(i%13==0){
+                System.out.println(i);
+                toplam+=i;
+            }
+            
+        }
+        System.out.println();
+        System.out.println("toplam = " + toplam);
 
     }
 }
